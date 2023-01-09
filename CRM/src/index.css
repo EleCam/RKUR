@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  background-color:ghostwhite !important; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Peddana');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+.tableFixHead          { overflow-y: auto; height: auto; }
+.tableFixHead thead th { position: sticky; top: 0; color:white; background-color:rgb(29, 32, 70); }
+
+.tableFixHead th {
+  box-shadow: 1px 0 rgb(228, 231, 235), 0 0 rgb(235, 233, 228);
+  
+}
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+th     { background:#eee; }
+
+.main{
+  background-color:ghostwhite;
+}
+
+.crmTitle{
+  text-align: center;
+  font-family: Raleway;
+  text-shadow: 2px 2px 2px #CE5937;
+}
+
+.sideBar{
+  position: fixed;
+  padding-top: 50px;
+  width: 60px;
+  text-align: center;
+  height: Calc(100vh);
+  background-color: rgb(44, 56, 70);
+  color: rgb(104, 220, 255);
+  font-size: 20px;
+}
+
+.crmNavLink{
+  border:solid 1px white;
+  border-radius: 6px 6px 0px 0px;
+  color: white;
+  margin:1px;
+  text-align: center;
+  padding-top: 5px;
+  width: 120px;
+  height: 40px;
+  background-color: maroon;
+  cursor: pointer;
+}
+
+.crmNavLink:hover{
+  
+  background-color: rgb(22, 187, 179);
+  color: maroon;
+}
+
+.crmChildNavLink{
+  border:solid 1px white;
+  border-radius: 6px 6px 0px 0px;
+  color: white;
+  margin:1px;
+  text-align: center;
+  padding-top: 5px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(24, 83, 172);
+  cursor: pointer;
+}
+
+.crmChildNavLink:hover{
+  
+  background-color: rgb(22, 187, 179);
+  color: rgb(24, 83, 172);
+}
+
+
+.crmMainContainer{
+  padding-left: 60px;
+}
+
+.crmHeader{
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 40rem;
+}
+
+
+
+.crmCompanies{
+  border: solid 1px rgb(128, 128, 128);
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: left;
+  flex-direction: row;
+  overflow-y: scroll;
+  background-color: gainsboro; 
+}
+
+.crmCompaniesItem{
+  
+  height: 70px !important;
+  width: 300px;
+  background-color: white;
+  margin: 5px;
+  border: solid 1px rgb(104, 8, 128);
+
+}
+
+.crmContactsHeader{
+  
+  text-align: center;
+  background-color: rgb(179, 31, 248);
+  color:white;
+  height: 40px;
+  width: 440px;
+  font-family: Caveat;
+  z-index: 20;
+}
+
+.crmHeaderMenu{
+  text-align: center;
+  background-color: rgb(161, 141, 73);
+  color:white .2;
+  height: 30px;
+  width: 440px;
+  font-family: Caveat;
+  margin-top:16px;
+  z-index: 20;
+  display:flex;
+  justify-content: center;
+ 
+}
+
+.crmContacts{
+  border: solid 1px grey;
+  height: 480px;
+  width: 440px;
+  overflow-y: scroll;
+  color:white;
+  margin-left: 40px;
+}
+
+.crmContactItem{
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 400px !important;
+  font-family: Montserrat;
+}
+
+.crmDeal{
+  border: solid 1px grey;
+  height: 480px;
+  width: 440px;
+  color:white;
+  vertical-align:top;
+  margin-left: 40px;
+}
+
+/*Start InfoColors */
+span {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+/*End InfoColors*/
+/*Start Empresas.js*/
+InputGroupText{
+  background: red !important;
+}
+/*End Empresas.js*/ 
