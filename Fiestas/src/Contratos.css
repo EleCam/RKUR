@@ -1,0 +1,11 @@
+.seleccionaINE:hover{
+  background: rgba(0,0,0,.7);
+  cursor: pointer;
+}
+.seleccionaINE{
+  margin: 40px;
+   width: 6.75in;
+  height: 4.25in;
+  background: rgba(0,0,0,.1);
+  
+}

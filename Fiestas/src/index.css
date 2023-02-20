@@ -1,0 +1,56 @@
+/* .rs-sidenav-item:hover, .rs-sidenav-toggle-button:hover,.rs-dropdown-item:hover{
+  background: rgba(0,0,0,.2) !important;
+  color: #007bff !important
+}
+.rs-sidenav-toggle{
+  border : none !important;
+}
+.rs-sidenav-item-active, .rs-dropdown-selected-within svg {
+  color:#007bff !important;
+}
+.rs-table-cell{
+  background: none !important;
+}
+.rs-table-cell:hover{
+}
+.rs-table-row:hover ~ .rs-table-cell-group .rs-table-cell{
+  background: rgba(0,0,0,.2) !important;
+}
+
+@import '~rsuite/styles/index.less'; */
+
+  
+body{
+    background: #0f131a !important;
+  }
+  .dark-theme {
+    background: #1a1d24 !important;
+    color:white ;
+  }
+.rs-sidenav-item , .rs-sidenav-toggle-button,.rs-sidenav-item{
+  /* color: white !important; */
+  text-decoration: none !important;
+}
+.rs-view .form-floating>.form-control{
+  background: #292d33 !important;
+  color: white;
+  cursor: default;
+  border: none;
+}
+.rs-view  .form-floating>.form-control:focus{
+  border: 1px solid red;
+  color:  white;
+  border: none;
+}
+.rs-view .form-floating>.form-label{
+  /* background: #292d33 !important; */
+  color: gainsboro;
+  border: none;
+}
+.rs-modal-header{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.fontBoldPDF{
+  font-weight: bold;
+}

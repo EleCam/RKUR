@@ -1,0 +1,48 @@
+.calendar-todo-list {
+    text-align: left;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .calendar-todo-list li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .calendar-todo-item-badge {
+    vertical-align: top;
+    margin-top: 8px;
+    width: 6px;
+    height: 6px;
+  }  
+  .rs-calendar-table-cell{
+    color:white
+  }
+  .rs-calendar-panel  .rs-calendar-table-cell-content:hover,.rs-calendar-table-cell-selected {
+    background: rgba(0,0,0,.15) !important;
+    /* border-color: red; */
+    /* border:none !important; */
+  }
+  
+  .rs-calendar-panel .rs-calendar-table-row .rs-calendar-table-cell, .rs-calendar-panel .rs-calendar-table-cell   .rs-calendar-table-cell-content{
+    height: 250px !important;
+    /* background: red */
+  }
+  .rs-calendar-panel  .rs-calendar-table-header-row .rs-calendar-table-cell-content , .rs-calendar-panel  .rs-calendar-table-header-row .rs-calendar-table-cell{
+    height: 40px !important;
+    /* background: red; */
+  }
+
+  /* .rs-calendar-table-header-row{
+    background: #1A1D24 !important ;
+  }
+  .dark-theme .rs-calendar-table-cell-content , .calendar-todo-list{
+    color: white !important;
+    background-color: #001B59 !important;
+    }
+    
+    .dark-theme .rs-calendar-today .rs-calendar-cell {
+    color: #fafafa;
+    background-color: #001B59;
+    } */
